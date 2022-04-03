@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+}
+.sidebar{
+    position: absolute;
+    left: 3%;
+    width: 400px;
+}
+.p{
+    position: absolute;
+    left: 30%;
+    margin-left: 2px;
+}
+.card{
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(146,143,143) !important;
+}
+.img img:nth-child(2){
+    position: relative;
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -95px;
+    box-shadow:  0 0 0 5px var(--green);
+}
+
+ul{
+    margin: 0%;
+    padding-left: 0%;
+}
+ul li{
+    text-align: left;
+}
+
+
+.item{
+    
+    text-transform: uppercase;
+    color: brown;
+    font-size: 15px;
+    font-weight: bold;
+}
+.item span{
+    
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+
+}

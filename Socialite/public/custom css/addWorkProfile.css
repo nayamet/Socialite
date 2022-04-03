@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+}
+.card{
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(146,143,143) !important;
+}
+.img img:nth-child(2){
+    position: relative;
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -95px;
+    box-shadow:  0 0 0 5px var(--green);
+}
+.form{
+    text-align: left;
+    margin-left: 9%;
+    border: 1px solid black;
+    border-radius: 20px;
+    
+}
+.button{
+    text-align: center;
+    position: relative;
+    left: 40%;
+    height: 50px;
+    width: 200px;
+    border: 1px solid ;
+    border-radius: 20px;
+}
